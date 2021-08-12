@@ -9,7 +9,7 @@ This forecasting problem can be graphically posed as follows:
 
 The main features of the developed ST-MDF model are that:
 - it works with mobility demand mesh-grids, which provides **high spatio-temporal resolution** (500x500m grid with 15min intervals),
-- the prediction takes into account `n_x` previous *timesteps*, and forecasts demand for `n_y` **future intervals**,
+- the prediction takes into account `n_x` previous **timesteps**, and forecasts demand for `n_y` **future intervals**,
 - it is **robust**, i.e., it can recover from sensor failure and continue producing reliable predictions,
 - it is **flexible**, i.e., it can work with a variable number of input and output sensors.
 
