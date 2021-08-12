@@ -5,7 +5,7 @@ Being able to predict when and where a certain number of people will have the ne
 This repository collects source code and information about a Deep Learning model named ST-MDF for mobility demand forecasting with heterogeneous mobility services.
 This forecasting problem can be graphically posed as follows:
 
-![](https://github.com/iipr/mobility-demand/raw/main/graphs/the-problem.pdf)
+![](https://github.com/iipr/mobility-demand/raw/main/graphs/the-problem.png)
 
 The main features of the developed ST-MDF model are that:
 - it works with mobility demand mesh-grids, which provides **high spatio-temporal resolution** (500x500m grid with 15min intervals),
