@@ -5,13 +5,13 @@ Being able to predict when and where a certain number of people will have the ne
 This repository collects source code and information about a Deep Learning model named ST-MDF for mobility demand forecasting with heterogeneous mobility services.
 This forecasting problem can be graphically posed as follows:
 
-![](https://github.com/iipr/mobility-demand/blob/main/graphs/the-problem.pdf)
+![](https://github.com/iipr/mobility-demand/raw/main/graphs/the-problem.pdf)
 
 The main features of the developed ST-MDF model are that:
-- it works with mobility demand mesh-grids, which provides *high spatio-temporal resolution* (500x500m grid with 15min intervals),
-- the prediction takes into account `n_x` previous *timesteps*, and forecasts demand for `n_y` *future intervals*,
-- it is *robust*, i.e., it can recover from sensor failure and continue producing reliable predictions,
-- it is *flexible*, i.e., it can work with a variable number of input and output sensors.
+- it works with mobility demand mesh-grids, which provides **high spatio-temporal resolution** (500x500m grid with 15min intervals),
+- the prediction takes into account `n_x` previous *timesteps*, and forecasts demand for `n_y` **future intervals**,
+- it is **robust**, i.e., it can recover from sensor failure and continue producing reliable predictions,
+- it is **flexible**, i.e., it can work with a variable number of input and output sensors.
 
 The contents of the repository are described in the following points:
 - `graphs`: Relevant graphs about the problem, and several maps of the city chosen as the case of study: Chicago.
